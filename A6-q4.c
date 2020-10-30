@@ -30,3 +30,11 @@ void main()
 	}
 	printf("\nEvaluation of pi using Monte-Carlo method completed.\nResults stored in location 'C:/Users/sahoo/Desktop/P342/monteCarlo.txt'");
 }
+
+
+/*************************************OUTPUT**********************************************************
+------------------------------------------------------------------------------------------------------
+
+Evaluation of pi using Monte-Carlo method completed.
+Results stored in location 'C:/Users/sahoo/Desktop/P342/monteCarlo.txt'
+*****************************************************************************************************/
