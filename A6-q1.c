@@ -53,3 +53,39 @@ int main()
 	printf("\t24\t%lf\t%lf\n", simp[2], fabs(val - simp[2]));
 
 }
+
+
+
+
+
+
+
+
+
+/**********************************OUTPUT********************************************
+-------------------------------------------------------------------------------------
+Given function is:
+        x/(x+1)
+Please enter the limits of integration.
+Lower limit:    1
+Upper limit:    3
+Analytical value of integration:        1.306853
+
+Using midpoint rule:-
+        Count   Integral Value  Error
+        5       1.308092        0.001239
+        10      1.307165        0.000312
+        25      1.306903        0.000050
+
+Using trapezoidal rule:-
+        Count   Integral Value  Error
+        5       1.304365        0.002488
+        10      1.306229        0.000624
+        25      1.306753        0.000100
+
+Using Simpson's rule:-
+        Count   Integral Value  Error
+        6       1.306830        0.000023
+        10      1.306850        0.000003
+        24      1.306853        0.000000
+*************************************************************************************/
