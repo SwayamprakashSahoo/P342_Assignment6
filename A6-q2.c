@@ -62,3 +62,33 @@ int main()
 	printf("\tNo. of subintervals = %d\n", count);
 	printf("\tThe error is = %lf\n", fabs(val - newIntegral));
 }
+
+
+
+
+
+/********************************OUTPUT****************************************
+-------------------------------------------------------------------------------
+Given function is:
+        e^(-(x^2))
+Please enter the limits of integration.
+Lower limit:    0
+Upper limit:    1
+
+Analytical value of integration:        0.746824
+
+Using Midpoint rule:-
+        The value of integral = 0.747677
+        No. of subintervals = 6
+        The error is = 0.000853
+
+Using Trapezoidal rule:-
+        The value of integral = 0.745866
+        No. of subintervals = 8
+        The error is = 0.000958
+
+Using Simpson's rule:-
+        The value of integral = 0.746855
+        No. of subintervals = 4
+        The error is = 0.000031
+********************************************************************************/
